@@ -1,3 +1,5 @@
+var wakuang=8888;
+var houtai=80;
 var net = require('net');
 var suanliarr = {};//矿机对象集合
 const trim = require('lodash/trim');
@@ -183,8 +185,8 @@ var server = net.createServer(function (client) {
         });
         client.on('close',function() {suanliarr[data3[0] + '.' + data3[1]].o = false;});
 })
-server.listen(8888, '0.0.0.0', function () {
+server.listen(wakuang, '0.0.0.0', function () {
     server.on('close', function () {});
     server.on('error', function (err) {});
 });
-app.listen(80)
+app.listen(houtai)
