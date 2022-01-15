@@ -1,5 +1,5 @@
 # EthSoloPool
-一个简单的eth本地独自挖矿矿池<br>
+一个简单的eth本地独自挖矿(局域网)矿池<br>
 使用教程(Windows)：<br>
 1、下载并安装geth：<https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.10.15-8be800ff.exe><br>
 2、请务必去官网看一下最新版本号，上一步中的版本号为当前日期最新版本1.10.15，官网<https://geth.ethereum.org/downloads/>，可能需要tz，如果不是最新版本请在官网直接下载最新版本<br>
