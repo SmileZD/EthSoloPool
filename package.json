@@ -1,0 +1,17 @@
+{
+  "name": "EthSoloPool",
+  "version": "1.0.0",
+  "description": "ETH简易solo矿池服务",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lvbu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "net": "^1.0.2",
+    "ws": "^8.4.2"
+  }
+}
